@@ -35,7 +35,7 @@ module tt_um_top (
 
     
    /* verilator lint_off PINCONNECTEMPTY */
-  Control_Unit m_Control_Unit (
+  UT m_UT (
       .clk(clk),
       .rst  (!rst_n),   
       .ce (ena),  
