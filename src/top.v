@@ -45,10 +45,9 @@ module tt_um_top (
       .load_carry(ui_in[5]),
       .init_carry(ui_in[6]),
       
-      .carry(uo_out[0]));
-      
-      
+      .carry(uo_out[0])
   );
+
     endmodule
 /* verilator lint_on PINCONNECTEMPTY */
 
